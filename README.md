@@ -18,11 +18,12 @@ example2.com
 example3.com
 ```
 
-Where scope.txt
+Where scope.txt:
 ```1.1.1.1/30
 192.10.8.5/24
 2.2.2.2
 100.50.41.31/32
 ```
 
-Returns: `Hostname <hostname>, IP Address <resolved IP>, in scope: <True/False>`
+Outputs for each domain check in "domains.txt": 
+`Hostname <hostname>, IP Address <resolved IP>, in scope: <True/False>`
